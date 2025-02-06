@@ -1,0 +1,55 @@
+REACT:-
+~~~~~~~
+Structure:-
+    1. Node modules - this folder storea al lthe third party libraries.
+    2. public - public folder is a static folder that contains images, videos, html file.
+    3. src - src is called as the main react folder. Whatever we need to modify or add, we have to do changes in the src only.
+    4. package.json - it is called the heart of any react application.
+                    - it will store all the information of application and its dependency.
+    5. package-lock.json - 
+
+
+JSX:-
+------
+- JSX
+- JSX stands for Javascript and "Javascript XML".
+- is a javascript syntax extension to create html-like markup in the reactjs.
+- is not belongs to Reactjs but it is recomendded to use in react.
+- is a case-sensitive.
+- actual way of creating the react elements is: React. createE1ement( "tagname" , {property: value}, children/ content);
+
+1. Class based components :-
+-----------------------------
+- class component is similar to javascript ES6 classs.
+
+    syntax:- class App extends React.component{
+        render(){
+            return(
+                //jsx
+            )
+        }
+    }
+
+2. functional components:-
+--------------------------
+- this is similar to a javascript function.
+
+
+component composition:-
+-----------------------
+
+- component composition is a combination of multiple files/components to make a single application 
+
+Note:- any component created in react 
+
+
+props:-
+k
+-------
+
+props.children: it is a special type of prop used to pass data from parent to child component
+
+
+props drilling:-
+----------------
+props drilling is way to pass the data down to the child component
