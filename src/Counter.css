@@ -1,0 +1,64 @@
+/* Center the counter */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e11313;
+    margin: 0;
+}
+
+div {
+    text-align: center;
+    background: rgb(248, 249, 249);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px  rgba(0, 0, 0, 0.1);
+}
+
+/* Style the counter text */
+.count-head {
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+    color: #ff0000;
+    font-weight: 500;
+}
+
+/* Button styling */
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Individual button colors */
+.btn:nth-child(1) { /* Increment Button */
+    background-color: rgb(174, 2, 197);
+    color: white;
+}
+
+.btn:nth-child(2) { /* Reset Button */
+    background-color: rgb(174, 2, 197);
+    color: white;
+}
+
+.btn:nth-child(3) { /* Decrement Button */
+    background-color: rgb(174, 2, 197);
+    color: white;
+}
+
+/* Hover effects */
+.btn:hover {
+    opacity: 1;
+    transform: scale(1.08);
+}
+
+/* Active click effect */
+.btn:active {
+    transform: scale(0.95);
+}

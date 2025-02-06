@@ -1,3 +1,31 @@
+step 1: create a github account
+
+step 2: create a repo in github
+
+step 3: open terminal in vs code
+
+step 4: init git in a local repo. Command : "git init"
+
+step 5: configure user and email to local repo
+	
+	Commands: git config --global user.name ""
+		  git config --global user.mail ""
+
+step 6: add remote/cloud repo to local repo
+	
+	Command: git remote add origin <http path>
+
+step 7: git pull origin <branch name> 
+
+step 8: convert untracked files to tracked files
+	Commands: git add .
+		  git commit -m "<some message>"
+
+step 9: check status. Command: git status
+
+step 10: push to cloud repo
+	Command: git push -u origin <branch name>
+
 REACT:-
 ~~~~~~~
 Structure:-
