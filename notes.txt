@@ -81,3 +81,8 @@ props.children: it is a special type of prop used to pass data from parent to ch
 props drilling:-
 ----------------
 props drilling is way to pass the data down to the child component
+
+Tight Coupling:
+--------------
+One is dependent upon another. between components
+child Component -> Parent Component

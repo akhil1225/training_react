@@ -34,25 +34,11 @@ div {
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-}
-
-/* Individual button colors */
-.btn:nth-child(1) { /* Increment Button */
     background-color: rgb(174, 2, 197);
     color: white;
 }
 
-.btn:nth-child(2) { /* Reset Button */
-    background-color: rgb(174, 2, 197);
-    color: white;
-}
 
-.btn:nth-child(3) { /* Decrement Button */
-    background-color: rgb(174, 2, 197);
-    color: white;
-}
-
-/* Hover effects */
 .btn:hover {
     opacity: 1;
     transform: scale(1.08);
