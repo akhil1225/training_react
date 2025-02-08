@@ -1,13 +1,13 @@
-import FuctionalComponent from './components/FunctionalComponents';
+// import FuctionalComponent from './components/FunctionalComponents';
+// import ClassComponent from "./components/ClassComponent";
+import MyForm from "./components/MyForm";
 
 const App = () => {
-  return (
+    return (
     <div>
-    <FuctionalComponent 
-      clg='MRU' city="Hyderabad"
-    />  
+        <MyForm></MyForm>
     </div>
-  );
+    );
 };
 
 export default App;
