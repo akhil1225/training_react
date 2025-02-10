@@ -86,3 +86,15 @@ Tight Coupling:
 --------------
 One is dependent upon another. between components
 child Component -> Parent Component
+
+
+useEffect():-
+-------------
+
+- this hook allows devs to apply side affect in the components suchas api fetching, updating 
+
+syntax:-
+    useEffect(callbackfn, dependency);
+
+List & keys: when we are listing the items in react, we ned to provide unique values
+             for each item by using props
