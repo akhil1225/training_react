@@ -106,3 +106,9 @@ useRef():-
 
 useContext() API:-
 ------------------
+
+
+Routing in react:-
+------------------
+    - routing in nothing but navigating to other pages without reloading.
+        "npm install react-router-dom@latest"
