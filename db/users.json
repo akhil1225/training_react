@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "name": "Koushik",
+      "email": "koushik@gmail.com",
+      "phone": "543216789",
+      "id": "3"
+    },
+    {
+      "id": "5c85",
+      "name": "Akhilendra",
+      "email": "akhilendra631@gmial.com",
+      "phone": "12345"
+    },
+    {
+      "id": "19b2",
+      "name": "sanyu",
+      "email": "sanyu.paul@gmail.com",
+      "phone": "123456789"
+    },
+    {
+      "id": "fa3e",
+      "name": "sanjana",
+      "email": "sanjana.1225@gmailcom",
+      "phone": "87654321"
+    },
+    {
+      "id": "e035",
+      "name": "sakinah",
+      "email": "sakinah@gmail.com",
+      "phone": "765432"
+    }
+  ]
+}

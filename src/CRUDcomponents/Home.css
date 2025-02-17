@@ -1,0 +1,87 @@
+#homeBlock {
+    width: 100%;
+    margin-top: 70px;
+}
+
+#homeBlock > article {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#homeBlock > article > h1 {
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 0, 234);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom:10px ;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+thead{
+    background-color: rgb(239, 81, 81);
+}
+
+
+
+
+.createBtn {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgb(0, 128, 255);
+    color: whiste;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.createLink :hover{
+    transform: scale(1.08);
+}
+
+/* Alternate row colors */
+tbody tr:nth-child(odd) {
+    background-color: #5dfff4; /* Light Gray */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #7388ff; /* White */
+  }
+  
+  /* Ensure buttons retain their styles */
+  .edit-btn, .delete-btn {
+    background-color: #007bff; /* Blue */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545; /* Red */
+  }
+  
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  

@@ -1,0 +1,68 @@
+.create-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.create-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.create-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.create-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.create-input:focus {
+    border-color: dodgerblue;
+}
+
+.create-submit-btn, .return-home-btn {
+    display: inline-block;
+    width: auto; 
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s, transform 0.2s;
+}
+
+.create-submit-btn {
+    background-color: dodgerblue;
+    color: white;
+    
+}
+
+.return-home-btn {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.create-submit-btn:hover, .return-home-btn:hover {
+    transform: scale(1.05);
+}
+
+.create-submit-btn:active, .return-home-btn:active {
+    transform: scale(0.95);
+}

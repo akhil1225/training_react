@@ -112,3 +112,15 @@ Routing in react:-
 ------------------
     - routing in nothing but navigating to other pages without reloading.
         "npm install react-router-dom@latest"
+
+
+CRUD Operations:=
+-----------------
+
+C - Create - POST
+R - Retreive - GET
+U - Update - PUT
+D - Delete - Delete
+
+https :- hyper text transfer protocol secured
+
